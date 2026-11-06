@@ -24,6 +24,7 @@ Use it for link previews, visual monitoring, QA, reporting, archiving or social 
 - [Use cases](#use-cases)
 - [Why CaptureKit?](#why-capturekit)
 - [FAQ](#faq)
+- [Official SDKs](#official-sdks)
 - [Related repositories](#related-repositories)
 - [Support](#support)
 
@@ -186,6 +187,22 @@ Yes, pass your S3-compatible storage parameters (`s3_bucket`, `s3_object_key`, â
 ### Which languages are supported?
 
 Any language that can make an HTTP request. This README shows Python and TypeScript; the [`examples/`](examples) folder contains cURL, PHP, C#, Go, Java, Ruby and Node.js.
+
+## Official SDKs
+
+Use CaptureKit from your own language with a typed client:
+
+| SDK | Package | Install |
+| --- | --- | --- |
+| Node.js | [`@capturekitdev/sdk`](https://www.npmjs.com/package/@capturekitdev/sdk) | `npm install @capturekitdev/sdk` |
+| Python | [`capturekitdev`](https://pypi.org/project/capturekitdev/) | `pip install capturekitdev` |
+| Go | [`capturekit-go`](https://pkg.go.dev/github.com/capturekitdev/capturekit-go) | `go get github.com/capturekitdev/capturekit-go` |
+| .NET | [`CaptureKit`](https://www.nuget.org/packages/CaptureKit) | `dotnet add package CaptureKit` |
+| Ruby | [`capturekitdev`](https://rubygems.org/gems/capturekitdev) | `gem install capturekitdev` |
+| PHP | [`capturekitdev/sdk`](https://packagist.org/packages/capturekitdev/sdk) | `composer require capturekitdev/sdk` |
+| Java | [`capturekit-java`](https://github.com/capturekitdev/capturekit-java) | build from source, see its README |
+| CLI | [`@capturekitdev/cli`](https://www.npmjs.com/package/@capturekitdev/cli) | `npm install -g @capturekitdev/cli` |
+| MCP server | [`@capturekitdev/mcp`](https://www.npmjs.com/package/@capturekitdev/mcp) | `npx -y @capturekitdev/mcp` |
 
 ## Related repositories
 
